@@ -66,7 +66,7 @@ gulp.task('copy', function() {
         .pipe(gulp.dest('vendor/angular'))
 
     gulp.src(['bower_components/angular-route/angular-route.js', '!**/angular.min.js', '!**/*.map'])
-        .pipe(gulp.dest('vendor/bootstrap'))
+        .pipe(gulp.dest('vendor/angular-route'))
 
     gulp.src(['bower_components/bootstrap/dist/**/*', '!**/npm.js', '!**/bootstrap-theme.*', '!**/*.map'])
         .pipe(gulp.dest('vendor/bootstrap'))
