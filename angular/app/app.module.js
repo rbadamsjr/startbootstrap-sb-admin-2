@@ -1,6 +1,6 @@
 (function(){
 
-var sbAdminApp = angular.module('app', ['ngRoute',]);
+var sbAdminApp = angular.module('app', ['ngRoute','ui.bootstrap']);
 
 // Routing
 sbAdminApp.config(['$routeProvider',
@@ -21,12 +21,12 @@ sbAdminApp.config(['$routeProvider',
 	}]);
 
   //Controllers
-  sbAdminApp.controller('DashboardCtrl',function(){
+	sbAdminApp.controller('LoginCtrl', function($scope) {
+		
+	});
 
-  });
+	sbAdminApp.controller('DashboardCtrl', function($scope) {
 
-  sbAdminApp.controller('LoginCtrl',function(){
-
-  });
+	});
 
 })();
