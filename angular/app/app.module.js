@@ -28,7 +28,7 @@ sbAdminApp.config(['$routeProvider',
 
 	sbAdminApp.controller('DashboardCtrl', function($scope) {
 		console.log('DashboardCtrl');
-	//	$('#side-menu').metisMenu();	
+	//	$('#side-menu').metisMenu();
 	});
 
 	sbAdminApp.controller('SideNavCtrl', function($scope) {
