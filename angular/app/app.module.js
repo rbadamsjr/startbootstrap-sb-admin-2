@@ -15,6 +15,10 @@ sbAdminApp.config(['$routeProvider',
 		  templateUrl: 'app/views/login.html',
 		  controller: 'LoginCtrl'
 		}).
+		when('/charts/flow', {
+		  templateUrl: 'app/views/flowcharts.html',
+		  controller: 'LoginCtrl'
+		}).
 		otherwise({
 		  redirectTo: '/'
 		});
